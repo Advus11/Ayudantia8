@@ -1,5 +1,3 @@
-package AeropuertoAyudantia;
-
 public class Agente {
 
 	private String nombre;

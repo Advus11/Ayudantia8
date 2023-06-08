@@ -1,9 +1,6 @@
-package AeropuertoAyudantia;
-
 import java.util.*;
 
 public class Agencia {
-
 	private Collection<Agente> agentes;
 	private Collection<Cliente> clientes;
 	private String nombre;
@@ -18,8 +15,8 @@ public class Agencia {
 	}
 
 
-	public Agente a�adirVendedor(String nombre, int identificacion) {
-		// TODO - implement Agencia.a�adirVendedor
+	public Agente añadirVendedor(String nombre, int identificacion) {
+		// TODO - implement Agencia.añadirVendedor
 		throw new UnsupportedOperationException();
 	}
 
@@ -30,7 +27,7 @@ public class Agencia {
 	}
 
 
-	public Vendedor eliminarVendedor(int identificacion) {
+	public Agente eliminarVendedor(int identificacion) {
 		// TODO - implement Agencia.eliminarVendedor
 		throw new UnsupportedOperationException();
 	}
@@ -42,8 +39,8 @@ public class Agencia {
 	}
 
 
-	public Cliente a�adirCliente(String nombre, int identificacion, String correoElectronico) {
-		// TODO - implement Agencia.a�adirCliente
+	public Cliente añadirCliente(String nombre, int identificacion, String correoElectronico) {
+		// TODO - implement Agencia.añadirCliente
 		throw new UnsupportedOperationException();
 	}
 
