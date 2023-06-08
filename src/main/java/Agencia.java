@@ -6,76 +6,48 @@ public class Agencia {
 
 	private Collection<Agente> agentes;
 	private Collection<Cliente> clientes;
-	private string nombre;
+	private String nombre;
 
-	public string getNombre() {
+	public String getNombre() {
 		return this.nombre;
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 */
-	public void setNombre(string nombre) {
+
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 * @param identificacion
-	 */
-	public Agente añadirVendedor(string nombre, int identificacion) {
-		// TODO - implement Agencia.añadirVendedor
+
+	public Agente aï¿½adirVendedor(String nombre, int identificacion) {
+		// TODO - implement Agencia.aï¿½adirVendedor
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param identificacion
-	 */
+
 	public Agente buscarVendedor(int identificacion) {
 		// TODO - implement Agencia.buscarVendedor
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param identificacion
-	 */
+
 	public Vendedor eliminarVendedor(int identificacion) {
 		// TODO - implement Agencia.eliminarVendedor
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 * @param identificacion
-	 * @param origen
-	 * @param destino
-	 * @param precioPagar
-	 */
-	public boolean generarVenta(string nombre, int identificacion, string origen, string destino, int precioPagar) {
+
+	public boolean generarVenta(String nombre, int identificacion, String origen, String destino, int precioPagar) {
 		// TODO - implement Agencia.generarVenta
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 * @param identificacion
-	 * @param correoElectronico
-	 */
-	public Cliente añadirCliente(string nombre, int identificacion, string correoElectronico) {
-		// TODO - implement Agencia.añadirCliente
+
+	public Cliente aï¿½adirCliente(String nombre, int identificacion, String correoElectronico) {
+		// TODO - implement Agencia.aï¿½adirCliente
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param identificacion
-	 */
+
 	public Cliente buscarCliente(int identificacion) {
 		// TODO - implement Agencia.buscarCliente
 		throw new UnsupportedOperationException();

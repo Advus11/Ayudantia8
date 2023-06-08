@@ -2,18 +2,15 @@ package AeropuertoAyudantia;
 
 public class Agente {
 
-	private string nombre;
+	private String nombre;
 	private int identificacion;
 
-	public string getNombre() {
+	public String getNombre() {
 		return this.nombre;
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 */
-	public void setNombre(string nombre) {
+
+	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
@@ -21,10 +18,7 @@ public class Agente {
 		return this.identificacion;
 	}
 
-	/**
-	 * 
-	 * @param identificacion
-	 */
+
 	public void setIdentificacion(int identificacion) {
 		this.identificacion = identificacion;
 	}
